@@ -1,0 +1,266 @@
+ 
+****************************************
+check_design summary:
+Version:     O-2018.06-SP4
+Date:        Mon Dec 27 20:46:14 2021
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    160
+    Unconnected ports (LINT-28)                                   108
+    Feedthrough (LINT-29)                                           1
+    Shorted outputs (LINT-31)                                      25
+    Constant outputs (LINT-52)                                     26
+
+Cells                                                              28
+    Cells do not drive (LINT-1)                                     1
+    Connected to power or ground (LINT-32)                         26
+    Nets connected to multiple pins on same cell (LINT-33)          1
+
+Nets                                                               26
+    Unloaded nets (LINT-2)                                         26
+--------------------------------------------------------------------------------
+
+Warning: In design 'APB_SLAVE_AMBA_WORD32_AMBA_ADDR_WIDTH20', cell 'state_machine' does not drive any nets. (LINT-1)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[6]' driven by pin 'mycontrol/DEC/MM/s_vector[6]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[7]' driven by pin 'mycontrol/DEC/MM/s_vector[7]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[8]' driven by pin 'mycontrol/DEC/MM/s_vector[8]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[9]' driven by pin 'mycontrol/DEC/MM/s_vector[9]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[10]' driven by pin 'mycontrol/DEC/MM/s_vector[10]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[11]' driven by pin 'mycontrol/DEC/MM/s_vector[11]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[12]' driven by pin 'mycontrol/DEC/MM/s_vector[12]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[13]' driven by pin 'mycontrol/DEC/MM/s_vector[13]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[14]' driven by pin 'mycontrol/DEC/MM/s_vector[14]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[15]' driven by pin 'mycontrol/DEC/MM/s_vector[15]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[16]' driven by pin 'mycontrol/DEC/MM/s_vector[16]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[17]' driven by pin 'mycontrol/DEC/MM/s_vector[17]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[18]' driven by pin 'mycontrol/DEC/MM/s_vector[18]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[19]' driven by pin 'mycontrol/DEC/MM/s_vector[19]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[20]' driven by pin 'mycontrol/DEC/MM/s_vector[20]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[21]' driven by pin 'mycontrol/DEC/MM/s_vector[21]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[22]' driven by pin 'mycontrol/DEC/MM/s_vector[22]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[23]' driven by pin 'mycontrol/DEC/MM/s_vector[23]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[24]' driven by pin 'mycontrol/DEC/MM/s_vector[24]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[25]' driven by pin 'mycontrol/DEC/MM/s_vector[25]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[26]' driven by pin 'mycontrol/DEC/MM/s_vector[26]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[27]' driven by pin 'mycontrol/DEC/MM/s_vector[27]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[28]' driven by pin 'mycontrol/DEC/MM/s_vector[28]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[29]' driven by pin 'mycontrol/DEC/MM/s_vector[29]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[30]' driven by pin 'mycontrol/DEC/MM/s_vector[30]' has no loads. (LINT-2)
+Warning: In design 'ecc_enc_dec', net 'mycontrol/DEC/s_vector[31]' driven by pin 'mycontrol/DEC/MM/s_vector[31]' has no loads. (LINT-2)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20', port 'PADDR[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32', port 'SEL[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Encoder_DATA_WIDTH32_AMBA_WORD32', port 'info[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'Encoder_DATA_WIDTH32_AMBA_WORD32', port 'info[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'Encoder_DATA_WIDTH32_AMBA_WORD32', port 'info[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'Encoder_DATA_WIDTH32_AMBA_WORD32', port 'info[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'Encoder_DATA_WIDTH32_AMBA_WORD32', port 'info[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'Encoder_DATA_WIDTH32_AMBA_WORD32', port 'info[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 'CODEWORD_WIDTH[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[31]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[30]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[29]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[28]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[27]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[26]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[25]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[24]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'Error_Locator_DATA_WIDTH32_AMBA_WORD32', port 's_vector[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'APB_SLAVE_AMBA_WORD32_AMBA_ADDR_WIDTH20', input port 'PWRITE' is connected directly to output port 'PWRITE_OUT'. (LINT-29)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[6]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[7]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[8]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[9]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[10]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[11]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[12]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[13]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[14]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[15]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[16]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[17]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[18]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[19]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[20]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[21]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[22]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[23]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[24]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[25]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[26]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[27]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[28]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[29]'. (LINT-31)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to output port 's_vector[30]'. (LINT-31)
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[31]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[30]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[29]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[28]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[27]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[26]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[25]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[24]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[23]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[22]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[21]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[20]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[19]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[18]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[17]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[16]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[15]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[14]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[13]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[12]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[11]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[10]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[9]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[8]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[7]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', a pin on submodule 'EL' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 's_vector[6]' is connected to logic 0. 
+Warning: In design 'DECODER_DATA_WIDTH32_AMBA_WORD32', the same net is connected to more than one pin on submodule 'EL'. (LINT-33)
+   Net 'n189' is connected to pins 's_vector[31]', 's_vector[30]'', 's_vector[29]', 's_vector[28]', 's_vector[27]', 's_vector[26]', 's_vector[25]', 's_vector[24]', 's_vector[23]', 's_vector[22]', 's_vector[21]', 's_vector[20]', 's_vector[19]', 's_vector[18]', 's_vector[17]', 's_vector[16]', 's_vector[15]', 's_vector[14]', 's_vector[13]', 's_vector[12]', 's_vector[11]', 's_vector[10]', 's_vector[9]', 's_vector[8]', 's_vector[7]', 's_vector[6]'.
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[31]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[30]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[29]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[28]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[27]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[26]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[25]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[24]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[23]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[22]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[21]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[20]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[19]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[18]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[17]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[16]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[15]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[14]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[13]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[12]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[11]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[10]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[9]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[8]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'Matrix_Mult_DATA_WIDTH32_AMBA_WORD32', output port 's_vector[6]' is connected directly to 'logic 0'. (LINT-52)
+1
