@@ -1,0 +1,113 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ecc_enc_dec
+Version: O-2018.06-SP4
+Date   : Mon Dec 27 20:46:14 2021
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mybank/codewordwidth/DATA_OUT_reg[8]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: data_out_reg[6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ecc_enc_dec        tsmc18_wl50           slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.20       0.20
+  mybank/codewordwidth/DATA_OUT_reg[8]/CK (DFFRHQX4)      0.00       0.20 r
+  mybank/codewordwidth/DATA_OUT_reg[8]/Q (DFFRHQX4)       0.33       0.53 f
+  mybank/codewordwidth/U84/Y (BUFX20)                     0.19       0.72 f
+  mybank/codewordwidth/DATA_OUT[8] (AMBA_REG_2)           0.00       0.72 f
+  mybank/CODEWORD_WIDTH[8] (REG_BANK_AMBA_WORD32_AMBA_ADDR_WIDTH20)
+                                                          0.00       0.72 f
+  mycontrol/CODEWORD_WIDTH[8] (FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32)
+                                                          0.00       0.72 f
+  mycontrol/ENC/CODEWORD_WIDTH[8] (Encoder_DATA_WIDTH32_AMBA_WORD32)
+                                                          0.00       0.72 f
+  mycontrol/ENC/U135/Y (NOR2X4)                           0.23       0.95 r
+  mycontrol/ENC/U123/Y (NOR3BX4)                          0.39       1.33 r
+  mycontrol/ENC/U94/Y (AND4X4)                            0.34       1.68 r
+  mycontrol/ENC/U93/Y (AND4X4)                            0.43       2.11 r
+  mycontrol/ENC/U95/Y (NAND2X4)                           0.23       2.33 f
+  mycontrol/ENC/U152/Y (AND2X4)                           0.38       2.71 f
+  mycontrol/ENC/U126/Y (CLKINVX20)                        0.36       3.08 r
+  mycontrol/ENC/U30/Y (NOR2X4)                            0.13       3.21 f
+  mycontrol/ENC/codeword[31] (Encoder_DATA_WIDTH32_AMBA_WORD32)
+                                                          0.00       3.21 f
+  mycontrol/U177/Y (INVX8)                                0.19       3.40 r
+  mycontrol/U150/Y (XNOR2X4)                              0.28       3.68 f
+  mycontrol/U148/Y (OAI22X4)                              0.29       3.97 r
+  mycontrol/DEC/codeword_y[31] (DECODER_DATA_WIDTH32_AMBA_WORD32)
+                                                          0.00       3.97 r
+  mycontrol/DEC/U83/Y (BUFX20)                            0.21       4.18 r
+  mycontrol/DEC/MM/codeword_y[31] (Matrix_Mult_DATA_WIDTH32_AMBA_WORD32)
+                                                          0.00       4.18 r
+  mycontrol/DEC/MM/U33/Y (XOR2X4)                         0.34       4.52 r
+  mycontrol/DEC/MM/U5/Y (BUFX20)                          0.16       4.68 r
+  mycontrol/DEC/MM/U54/Y (XOR2X4)                         0.32       5.00 r
+  mycontrol/DEC/MM/U53/Y (XOR2X4)                         0.35       5.35 r
+  mycontrol/DEC/MM/U109/Y (XOR2X4)                        0.37       5.72 r
+  mycontrol/DEC/MM/U99/Y (INVX8)                          0.13       5.84 f
+  mycontrol/DEC/MM/U98/Y (XOR2X4)                         0.33       6.17 r
+  mycontrol/DEC/MM/U49/Y (XOR2X4)                         0.35       6.52 r
+  mycontrol/DEC/MM/U27/Y (XNOR2X4)                        0.28       6.81 f
+  mycontrol/DEC/MM/U82/Y (NAND2X4)                        0.18       6.99 r
+  mycontrol/DEC/MM/U84/Y (NAND3X4)                        0.24       7.23 f
+  mycontrol/DEC/MM/s_vector[1] (Matrix_Mult_DATA_WIDTH32_AMBA_WORD32)
+                                                          0.00       7.23 f
+  mycontrol/DEC/U174/Y (BUFX20)                           0.22       7.45 f
+  mycontrol/DEC/EL/s_vector[1] (Error_Locator_DATA_WIDTH32_AMBA_WORD32)
+                                                          0.00       7.45 f
+  mycontrol/DEC/EL/U74/Y (NOR2X4)                         0.28       7.73 r
+  mycontrol/DEC/EL/U92/Y (BUFX20)                         0.21       7.94 r
+  mycontrol/DEC/EL/U62/Y (NAND2X4)                        0.13       8.08 f
+  mycontrol/DEC/EL/U61/Y (NOR2X4)                         0.36       8.44 r
+  mycontrol/DEC/EL/U60/Y (AOI211X4)                       0.45       8.89 f
+  mycontrol/DEC/EL/U64/Y (OR2X4)                          0.31       9.19 f
+  mycontrol/DEC/EL/U48/Y (BUFX20)                         0.18       9.38 f
+  mycontrol/DEC/EL/U125/Y (INVX8)                         0.17       9.55 r
+  mycontrol/DEC/EL/U128/Y (CLKBUFX20)                     0.28       9.82 r
+  mycontrol/DEC/EL/U115/Y (OAI221X2)                      0.34      10.16 f
+  mycontrol/DEC/EL/err_location[10] (Error_Locator_DATA_WIDTH32_AMBA_WORD32)
+                                                          0.00      10.16 f
+  mycontrol/DEC/U6/Y (BUFX20)                             0.26      10.41 f
+  mycontrol/DEC/U119/Y (XOR2X4)                           0.45      10.86 r
+  mycontrol/DEC/U93/Y (INVX8)                             0.19      11.05 f
+  mycontrol/DEC/U153/Y (AOI2BB2X4)                        0.30      11.36 f
+  mycontrol/DEC/U161/Y (NAND3X4)                          0.33      11.68 r
+  mycontrol/DEC/decoded_word[6] (DECODER_DATA_WIDTH32_AMBA_WORD32)
+                                                          0.00      11.68 r
+  mycontrol/U176/Y (OAI2BB2X4)                            0.27      11.96 r
+  mycontrol/data_out[6] (FUNCTION_CONTROL_AMBA_WORD32_DATA_WIDTH32)
+                                                          0.00      11.96 r
+  data_out_reg[6]/D (DFFHQXL)                             0.00      11.96 r
+  data arrival time                                                 11.96
+
+  clock clk (rise edge)                                  12.00      12.00
+  clock network delay (ideal)                             0.20      12.20
+  clock uncertainty                                      -0.10      12.10
+  data_out_reg[6]/CK (DFFHQXL)                            0.00      12.10 r
+  library setup time                                     -0.14      11.96
+  data required time                                                11.96
+  --------------------------------------------------------------------------
+  data required time                                                11.96
+  data arrival time                                                -11.96
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1
